@@ -1,0 +1,87 @@
+[
+  {
+    "id": "receipt_01",
+    "scenario": "Large grocery receipt: 22 products, 10 discounts, can deposits",
+    "X": "receipt1.jpg",
+    "y": {
+      "shop": "PROMO Cash&Carry",
+      "date": "2026-07-22",
+      "items": [
+        {"name": "Valgomieji ledai SNICKERS su žemės riešutais", "price": 1.25, "category": "snacks"},
+        {"name": "Nuolaida", "price": -0.46, "category": "discount"},
+        {"name": "Kukurūzų traškučiai SANTA MARIA Pico De Gallo", "price": 2.47, "category": "snacks"},
+        {"name": "Traškūs džiovinto sūrio kamuoliukai DŽIUGAS", "price": 1.99, "category": "snacks"},
+        {"name": "Nuolaida", "price": -0.50, "category": "discount"},
+        {"name": "Prancūziškas batonas su sviestu ir česnaku, 150 g", "price": 0.79, "category": "food"},
+        {"name": "Traškučiai ESTRELLA grietinės ir svogūnų skonio", "price": 4.24, "category": "snacks"},
+        {"name": "Nuolaida", "price": -1.86, "category": "discount"},
+        {"name": "Šaldytos vištienos filė juostelės", "price": 6.69, "category": "food"},
+        {"name": "Kukurūzų traškučiai SANTA MARIA su sūriu ir jalapeño", "price": 2.51, "category": "snacks"},
+        {"name": "Šaldytos mėsainių bandelės LE BRIO, 4x65 g", "price": 2.99, "category": "food"},
+        {"name": "Ledų batonėlis MARS, 51 ml", "price": 6.25, "category": "snacks"},
+        {"name": "Nuolaida", "price": -1.80, "category": "discount"},
+        {"name": "Šviežias fermentinis sūrelis SŪRIO DŽIAZAS", "price": 2.75, "category": "food"},
+        {"name": "Šaldyta pica ITALPIZZA La Bomba Meat Feast, 470 g", "price": 5.99, "category": "food"},
+        {"name": "Majonezinis padažas DAUMANTŲ BALTASIS, 25%, 450 g", "price": 1.89, "category": "food"},
+        {"name": "Nuolaida", "price": -0.40, "category": "discount"},
+        {"name": "Apelsinai, maži, I klasė", "price": 0.39, "category": "food"},
+        {"name": "Paprikos saldžiosios, žalios, I klasė", "price": 0.50, "category": "food"},
+        {"name": "Nuolaida", "price": -0.17, "category": "discount"},
+        {"name": "Energinis gėrimas MONSTER ENERGY Mega Ultra, 0,55 l", "price": 7.00, "category": "drinks"},
+        {"name": "Nuolaida", "price": -1.84, "category": "discount"},
+        {"name": "Metalo pakuotės užstatas", "price": 0.40, "category": "other"},
+        {"name": "Energinis gėrimas MONSTER ENERGY Mega Ultra, 0,55 l", "price": 1.75, "category": "drinks"},
+        {"name": "Nuolaida", "price": -0.46, "category": "discount"},
+        {"name": "Metalo pakuotės užstatas", "price": 0.10, "category": "other"},
+        {"name": "Energinis gėrimas RED BULL Zero, 0,25 l", "price": 6.60, "category": "drinks"},
+        {"name": "Metalo pakuotės užstatas", "price": 0.40, "category": "other"},
+        {"name": "Alyvuogių aliejus NATURALISIMO Extra Virgin", "price": 12.99, "category": "food"},
+        {"name": "Nuolaida", "price": -4.40, "category": "discount"},
+        {"name": "Sūrio padažas dip EL SABOR, čederio skonio", "price": 2.99, "category": "food"},
+        {"name": "Aštrus padažas FLYING GOOSE Sriracha, 455 ml", "price": 5.99, "category": "food"},
+        {"name": "Nuolaida", "price": -0.16, "category": "discount"},
+        {"name": "Kiaušiniai, M dydis, rudi, 10 vnt.", "price": 5.97, "category": "food"},
+        {"name": "Pirkinių maišelis PROMO Cash&Carry", "price": 0.40, "category": "household"}
+      ],
+      "total": 73.24
+    }
+  },
+  {
+    "id": "receipt_02",
+    "scenario": "Household goods, no discounts",
+    "X": "receipt2.jpg",
+    "y": {
+      "shop": "IKEA",
+      "date": "2026-07-06",
+      "items": [
+        {"name": "DÄNKA NN LYGINIMO LENTA 120X37", "price": 34.99, "category": "household"},
+        {"name": "IKEA 365+ MAIS IND 1.0 L STAČIAKAMPIS/STIKLAS", "price": 2.49, "category": "household"},
+        {"name": "KLOCKREN DANG 29 STIKLAS", "price": 5.99, "category": "household"},
+        {"name": "RAGGISAR KREPŠIŲ RINK, 3 VNT. PILKA", "price": 2.99, "category": "household"},
+        {"name": "MANÖGA ŽIRKLĖS NERŪDIJANTIS PLIENAS/JUODA", "price": 0.50, "category": "household"}
+      ],
+      "total": 46.96
+    }
+  },
+  {
+    "id": "receipt_03",
+    "scenario": "Small receipt: 3 drinks, each with a loyalty discount and bottle deposit",
+    "X": "receipt3.jpg",
+    "y": {
+      "shop": "MAXIMA",
+      "date": "2026-07-22",
+      "items": [
+        {"name": "Gazuotas gėrimas PEPSI MAX", "price": 2.25, "category": "drinks"},
+        {"name": "AČIŪ nuolaida prekei: Gazuotas gėrimas PEPSI MAX", "price": -1.13, "category": "discount"},
+        {"name": "PET (depozitinis) 0,10 EUR", "price": 0.10, "category": "other"},
+        {"name": "Gazuotas gėrimas PEPSI LIME", "price": 2.25, "category": "drinks"},
+        {"name": "AČIŪ nuolaida prekei: Gazuotas gėrimas PEPSI LIME", "price": -1.13, "category": "discount"},
+        {"name": "PET (depozitinis) 0,10 EUR", "price": 0.10, "category": "other"},
+        {"name": "Gazuotas gėrimas PEPSI MAX", "price": 2.25, "category": "drinks"},
+        {"name": "AČIŪ nuolaida prekei: Gazuotas gėrimas PEPSI MAX", "price": -1.13, "category": "discount"},
+        {"name": "PET (depozitinis) 0,10 EUR", "price": 0.10, "category": "other"}
+      ],
+      "total": 3.66
+    }
+  }
+]
